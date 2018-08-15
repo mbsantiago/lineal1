@@ -43,7 +43,7 @@ $link-decoration-hover-color  : $black-deep;
 $border-color                 : $grey-light;
 
 // Background color for <body>
-$body-bg-color                : white;
+$body-bg-color                : $whitesmoke;
 
 // Selection
 $selection-bg                 : $blue-deep;
@@ -213,7 +213,7 @@ $headband-bg                    : $black-deep;
 // Variables for header section elements.
 // --------------------------------------------------
 
-$head-bg                        : #fdf2e9;
+$head-bg                        : #d8bfaa;
 
 // Site Meta
 $site-meta-text-align           : center;
@@ -224,9 +224,9 @@ $brand-bg                       : $black-deep;
 $logo-font-size                 : 20px;
 $logo-font-size                 : if(type-of(jekyll-config('font.logo.size')) == 'number', jekyll-config('font.logo.size') + px, $logo-font-size);
 
-$site-subtitle-color            : $grey-dark;
+$site-subtitle-color            : $black-deep;
 $subtitle-font-size             : 13px;
-$subtitle-color                 : $grey-dark;
+$subtitle-color                 : $black-deep;
 
 // Menu
 $menu-link-border               : transparent;
